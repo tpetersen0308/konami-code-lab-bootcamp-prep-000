@@ -7,7 +7,7 @@ function init() {
     if(key === code[i]) {
       i++
       if (i === code.length) {
-        console.log("Nailed it!")
+        alert("Nailed it!")
         i = 0
       }
     }
